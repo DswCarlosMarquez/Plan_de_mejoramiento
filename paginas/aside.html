@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovi</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="d.css">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="img/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<link href="../../../maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<center>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="goal-summary pull-center">
+          <div class="backers">
+            <a href="../index.html"><img src="../img/logo.png" alt="Logo UNAD" class="uk-padding-small uk-margin-small-top bg-white" uk-img></a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </header>
+      <div id="navigation_container">
+  
+          <div class="rectangle">
+      <ul id="navigation">
+          <li><a href="section.html">SECTION</a></li>
+          <li><a href="aside.html">ASIDE</a></li>
+          <li><a href="footer.html">FOOTER</a></li>
+          <li><a href="article.html">ARTICLE</a></li>
+      </ul>
+      </div>
+      <div class="main-content">
+        <div class="container">
+          <div class="row">
+            <div class="content col-md-8 col-sm-12 col-xs-12">
+              <div class="section-block">
+                <div class="funding-meta">
+          <h2>Elemento aside</h2>
+          <p class="alr"><span class="img"></span>En esta pagina tendras una breve descripcion sobre el atributo Aside.</a></p>
+          <div class="toc">
+            <p>Tabla de contenidos</p>
+            <ul>
+              <li><a class="mn" href="#description"><span class="num">01</span><span class="mul">Descripción</span></a></li>
+              <li><a class="mn" href="#examples"><span class="num">02</span><span class="mul">Ejemplos</span></a></li>
+              </ul>
+              </li>
+              </ul>
+              </li>
+            </ul>
+          </div>
+        </header>
+        <section id="description">
+          <h2>Descripción</h2>
+          <p>El elemento <code class="elem">aside</code> es un contenedor para información que se considera solo levemente relacionada al documento o la sección en la que es definida. En otras palabras, el contenido del elemento <code class="elem">aside</code> debe estar relacionado al contenido circundante, pero no ser completamente necesario para su comprensión.</p>
+          <p>El elemento <code class="elem">aside</code> puede ser típicamente encontrado alrededor de enlaces de <i lang="en">blogrolls</i>, enlaces al archivo, un glosario, una lista de <i lang="en">tweets</i> del autor, o notas, pensamientos o ideas que se le han ocurrido al autor durante la producción del documento. Asimismo, puedes ver ejemplos perfectos de notas al margen en revistas y diarios impresos, donde se provee información adicional (pero no crítica) para enriquecer la experiencia del usuario.</p>
+          <p class="alr msr"><span class="img"></span>Los autores no deberían utilizar el elemento <code class="elem">aside</code> para encerrar contenido que no guarda relación con la sección en la que se define. Su contenido debe tener <em>alguna</em> relación con su entorno.</p>
+        </section>
+        <section id="examples">
+          <h2>Ejemplos</h2>
+          <p>En este ejemplo usaremos al elemento <code class="elem">aside</code> para definir una sección de navegación con vínculos a sitios relacionados. Puedes ver como los vínculos están, ciertamente, relacionados al documento.</p>
+      
+      <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;h1&gt;</span>El blog de astrofotograf&iacute;a de Gary<span class="tag">&lt;/h1&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="2."></span><span class="ln2"><span class="tag">&lt;p&gt;</span>Hola a todos, y bienvenidos a mi blog...<span class="tag">&lt;/p&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="3."></span><span class="ln1"><span class="tag">&lt;aside&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="4."></span><span class="ln2">  <span class="tag">&lt;nav&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="5."></span><span class="ln1">    <span class="tag">&lt;h1&gt;</span>Sitios relacionados<span class="tag">&lt;/h1&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="6."></span><span class="ln2">    <span class="tag">&lt;ul&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="7."></span><span class="ln1">      <span class="tag">&lt;li&gt;</span><span class="tag">&lt;a<span class="atn"> href=</span><span class="atv">&quot;http://science.nasa.gov/astrophysics/&quot;</span>&gt;</span>Astrof&iacute;sica - NASA Science<span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="8."></span><span class="ln2">      <span class="tag">&lt;li&gt;</span><span class="tag">&lt;a<span class="atn"> href=</span><span class="atv">&quot;http://www-astro.physics.ox.ac.uk/&quot;</span>&gt;</span>Astrof&iacute;sica | Universidad de Oxford<span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="9."></span><span class="ln1">      <span class="tag">&lt;li&gt;</span><span class="tag">&lt;a<span class="atn"> href=</span><span class="atv">&quot;http://aston.blogejemplo.com/&quot;</span>&gt;</span>El blog de astrof&iacute;sica de Aston<span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="10."></span><span class="ln2">      <span class="tag">&lt;li&gt;</span>...<span class="tag">&lt;/li&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="11."></span><span class="ln1">    <span class="tag">&lt;/ul&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="12."></span><span class="ln2">  <span class="tag">&lt;/nav&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="13."></span><span class="ln1"><span class="tag">&lt;/aside&gt;</span></span></span>
+      </code></pre>
+      
+          <p>En el siguiente ejemplo, insertaremos un bloque <code class="elem">aside</code> dentro de una de las entradas del blog (contenida por un <a href="article.html">elemento <code class="elem">article</code></a>), y por lo tanto, sus contenidos deberán estar relacionados a los contenidos de dicha entrada y no a la página como un todo.</p>
+      
+      <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;h1&gt;</span>El blog de astrofotograf&iacute;a de Gary<span class="tag">&lt;/h1&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="2."></span><span class="ln2"><span class="tag">&lt;p&gt;</span>Veamos algunas de mis entradas m&aacute;s recientes...<span class="tag">&lt;/p&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="3."></span><span class="ln1"><span class="tag">&lt;article&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="4."></span><span class="ln2">  <span class="tag">&lt;header&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="5."></span><span class="ln1">    <span class="tag">&lt;h1&gt;</span>La nebulosa del cangrejo<span class="tag">&lt;/h1&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="6."></span><span class="ln2">    <span class="tag">&lt;p&gt;</span>Publicado <span class="tag">&lt;time pubdate<span class="atn"> datetime=</span><span class="atv">&quot;2014-05-20T16:00-04:00&quot;</span>&gt;</span>la semana pasada<span class="tag">&lt;/time&gt;</span><span class="tag">&lt;/p&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="7."></span><span class="ln1">  <span class="tag">&lt;/header&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="8."></span><span class="ln2">  <span class="tag">&lt;p&gt;</span>La nebulosa del cangrejo (tambi&eacute;n conocida como M1, NGC 1952, Taurus A y Taurus X-1) es un resto de supernova de tipo pleri&oacute;n, que fue observada y documentada, como una estrella visible a la luz del d&iacute;a, por astr&oacute;nomos chinos y &aacute;rabes el 5 de julio del a&ntilde;o 1054<span class="tag">&lt;/p&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="9."></span><span class="ln1">  <span class="tag">&lt;p&gt;</span>...<span class="tag">&lt;/p&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="10."></span><span class="ln2">  <span class="tag">&lt;aside&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="11."></span><span class="ln1">    <span class="tag">&lt;p&gt;</span>Encuentro personalmente a los nombre codificados (M35, NGC 449 y as&iacute; sucesivamente) muy confusos. Si tan solo tuvi&eacute;ramos suficientes animales...<span class="tag">&lt;/p&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="12."></span><span class="ln2">  <span class="tag">&lt;/aside&gt;</span></span></span>
+      <span class="ln"><span class="num" data-num="13."></span><span class="ln1"><span class="tag">&lt;/article&gt;</span></span></span>
+      </code></pre>
+      <div class="cdv">
+        <div class="cdvm">
+      </article>
+        </div>
+        </div>
+        </section>
+        </section>
+        </article>
+</main>
+</div>	
+</div>
+</div>
+    </div>
+  </div>
+</div>
+</center>
+</body>
+<footer id="ft">
+  <div id="ftln"></div>
+  <div id="ftc">
+    <div id="ftc1">
+      <h1>Tutoriales</h1>
+          <ul>
+              <li><a href="https://www.youtube.com/channel/UCfQRFeSmAl6ZOs5ljM9b06A?">Visita mi canal en YouTube</a>
+              </li>
+          </ul>
+    </div>
+    <div id="ftc2">
+      <h1>Referencias</h1>
+      <ul>
+          <li>
+              <a href="https://es.wikipedia.org/wiki/HTML5">WIKIPEDIA</a>
+          </li>
+      </ul>
+    </div>
+    <div id="ftc3">
+      <h1>Ayuda</h1>
+      <ul>
+          <li>
+              <a href="https://api.whatsapp.com/send?phone=573207819295&amp;text=Hola%20quiero%20mas%20informaci%C3%B3n%20sobre%20HTML%20Y%20CSS">Escribeme al Whatsapp</a>
+          </li>
+      </ul>
+    </div>
+    <div id="ftb"></div>
+  </div>
+</footer>
+
+</html>

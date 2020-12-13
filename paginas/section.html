@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovi</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="d.css">
+    <link href="../assets/css/style.css" rel="stylesheet">
+	<link href="../../../maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <center>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="goal-summary pull-center">
+            <div class="backers">
+              <a href="../index.html"><img src="../img/logo.png" alt="Logo UNAD" class="uk-padding-small uk-margin-small-top bg-white" uk-img></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+        <div id="navigation_container">
+    
+            <div class="rectangle">
+        <ul id="navigation">
+            <li><a href="section.html">SECTION</a></li>
+            <li><a href="aside.html">ASIDE</a></li>
+            <li><a href="footer.html">FOOTER</a></li>
+            <li><a href="article.html">ARTICLE</a></li>
+        </ul>
+        </div>
+    
+    <div class="main-content">
+      <div class="container">
+        <div class="row">
+          <div class="content col-md-8 col-sm-12 col-xs-12">
+            <div class="section-block">
+              <div class="funding-meta">
+            <h2>Elemento section</h2>
+            <p class="alr"><span class="img"></span>En esta pagina tendras una breve descripcion sobre el atributo Section </a>.</p>
+            <div class="toc">
+              <p>Tabla de contenidos</p>
+              <ul>
+                <li><a class="mn" href="#description"><span class="num">01</span><span class="mul">Descripción</span></a></li>
+                <li><a class="mn" href="#examples"><span class="num">02</span><span class="mul">Ejemplos</span></a></li>
+                
+              </ul>
+            </div>
+          </header>
+          <section id="description">
+            <h2>Descripción</h2>
+         <p>   El elemento de HTML section representa una sección genérica de un documento. Sirve para determinar qué contenido corresponde a qué parte de un esquema. Piensa en el esquema como en el índice de contenido de un libro; un tema común y subsecciones relacionadas.  Es, por lo tanto, una etiquéta semántica. Su funcionalidad principal es estructurar semánticamente un documento a la hora de ser representado por parte de un agente usuario. Por ejemplo, un agente de usuario que represente el documento en voz, podría exponer al usuario el índice de contenido por niveles para navegar rápidamente por las distintas partes.</p>
+          <section id="examples">
+            <h2>Ejemplos</h2>
+            <p>En el siguiente ejemplo el elemento <code class="elem">section</code> es usado para encerrar los diferentes capítulos de un documento, lo que constituye un uso muy común. Nota cómo, en este caso particular, cada elemento <code class="elem">section</code> comienza con su propio elemento de encabezado. Aunque no es requerido, esto es algo muy típico dada la naturaleza del elemento y su propósito.</p>
+        
+        <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;h1&gt;</span>El extra&ntilde;o interior<span class="tag">&lt;/h1&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="2."></span><span class="ln2"><span class="tag">&lt;section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="3."></span><span class="ln1">  <span class="tag">&lt;h2&gt;</span>Introducci&oacute;n<span class="tag">&lt;/h2&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="4."></span><span class="ln2">  <span class="tag">&lt;p&gt;</span>Boris era un hombre muy solitario...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="5."></span><span class="ln1"><span class="tag">&lt;/section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="6."></span><span class="ln2"><span class="tag">&lt;section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="7."></span><span class="ln1">  <span class="tag">&lt;h2&gt;</span>Un blanco f&aacute;cil<span class="tag">&lt;/h2&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="8."></span><span class="ln2">  <span class="tag">&lt;p&gt;</span>Las contradicciones segu&iacute;an creciendo en su mente...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="9."></span><span class="ln1"><span class="tag">&lt;/section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="10."></span><span class="ln2"><span class="tag">&lt;section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="11."></span><span class="ln1">  <span class="tag">&lt;h2&gt;</span>A nadie le importa<span class="tag">&lt;/h2&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="12."></span><span class="ln2">  <span class="tag">&lt;p&gt;</span>Pasando desapercibido, Boris intentaba comprender a las personas que transitaban a su lado...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="13."></span><span class="ln1"><span class="tag">&lt;/section&gt;</span></span></span>
+        </code></pre>
+        
+            <p>En el segundo ejemplo, veremos cómo el elemento <code class="elem">section</code> divide temáticamente un documento entero en diferentes secciones. Tendremos las siguientes secciones: anuncios y artículos relacionados; el contenido principal estará representado por el <a href="main.html">elemento <code class="elem">main</code></a>, más apropiado para el caso.</p>
+        
+        <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="2."></span><span class="ln2">  <span class="tag">&lt;h1&gt;</span>Anuncios<span class="tag">&lt;/h1&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="3."></span><span class="ln1">  <span class="tag">&lt;p&gt;</span><span class="tag">&lt;a<span class="atn"> href=</span><span class="atv">&quot;http://www.super-frogger-shaper-5000.com&quot;</span>&gt;</span>Super frogger shaper 5000. Todo lo que necesitas para estar en forma!<span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="4."></span><span class="ln2"><span class="tag">&lt;/section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="5."></span><span class="ln1"><span class="tag">&lt;main&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="6."></span><span class="ln2">  <span class="tag">&lt;h1&gt;</span>&iquest;C&oacute;mo mantenerte en forma?<span class="tag">&lt;/h1&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="7."></span><span class="ln1">  <span class="tag">&lt;p&gt;</span>Llevar un estilo de vida saludable es muy importante...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="8."></span><span class="ln2"><span class="tag">&lt;/main&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="9."></span><span class="ln1"><span class="tag">&lt;section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="10."></span><span class="ln2">  <span class="tag">&lt;h1&gt;</span>Art&iacute;culos relacionados<span class="tag">&lt;/h1&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="11."></span><span class="ln1">  <span class="tag">&lt;ul&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="12."></span><span class="ln2">    <span class="tag">&lt;li&gt;</span><span class="tag">&lt;a<span class="atn"> href=</span><span class="atv">&quot;comida-saludable.html&quot;</span>&gt;</span>Incluye comida saludable en tu dieta<span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="13."></span><span class="ln1">    <span class="tag">&lt;li&gt;</span><span class="tag">&lt;a<span class="atn"> href=</span><span class="atv">&quot;habitos-de-descanso.html&quot;</span>&gt;</span>Adopta buenos h&aacute;bitos de descanso<span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/li&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="14."></span><span class="ln2">  <span class="tag">&lt;/ul&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="15."></span><span class="ln1"><span class="tag">&lt;/section&gt;</span></span></span>
+        </code></pre>
+        
+            <p>Por último, mostraremos a un elemento <code class="elem">section</code> encerrando una sección de "artículos relacionados", la cual consiste en un cierto número de vínculos acompañados por una pequeña descripción. Sí, cada uno de estos ítems califica como contenido para la sindicación y por lo tanto, será encerrado por el <a href="article.html">elemento <code class="elem">article</code></a>.</p>
+        
+        <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;section&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="2."></span><span class="ln2">  <span class="tag">&lt;h1&gt;</span>Art&iacute;culos relacionados<span class="tag">&lt;/h1&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="3."></span><span class="ln1">  <span class="tag">&lt;article&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="4."></span><span class="ln2">    <span class="tag">&lt;h2&gt;</span><span class="tag">&lt;a<span class="atn"> href=</span><span class="atv">&quot;el-calentamiento-global-en-2030.html&quot;</span>&gt;</span>El calentamiento global en 2030<span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/h2&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="5."></span><span class="ln1">    <span class="tag">&lt;p&gt;</span>&iquest;C&oacute;mo ser&aacute; la vida para los habitantes de la Tierra en 2030? Los efectos de la conducta humana se har&aacute;n presente en el futuro cercano...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="6."></span><span class="ln2">  <span class="tag">&lt;/article&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="7."></span><span class="ln1">  <span class="tag">&lt;article&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="8."></span><span class="ln2">    <span class="tag">&lt;h2&gt;</span><span class="tag">&lt;a<span class="atn"> href=</span><span class="atv">&quot;prevenir-el-cambio-climatico.html&quot;</span>&gt;</span>La prevenci&oacute;n del cambio clim&aacute;tico<span class="tag">&lt;/a&gt;</span><span class="tag">&lt;/h2&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="9."></span><span class="ln1">    <span class="tag">&lt;p&gt;</span>&iquest;Qu&eacute; puede hacerse desde casa para dejar de contribuir al cambio clim&aacute;tico? Aprende algunas t&eacute;cnicas que ayudar&aacute;n a tu planeta...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="10."></span><span class="ln2">  <span class="tag">&lt;/article&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="11."></span><span class="ln1"><span class="tag">&lt;/section&gt;</span></span></span>
+        </code></pre>
+        
+          </section>
+          </section>
+          </section>
+        </article>
+      </div>	
+    </div>
+  </div>
+        </div>
+      </div>
+    </div>
+
+  </center>
+</body>
+
+<footer id="ft">
+  <div id="ftln"></div>
+  <div id="ftc">
+    <div id="ftc1">
+      <h1>Tutoriales</h1>
+          <ul>
+              <li><a href="https://www.youtube.com/channel/UCfQRFeSmAl6ZOs5ljM9b06A?">Visita mi canal en YouTube</a>
+              </li>
+          </ul>
+    </div>
+    <div id="ftc2">
+      <h1>Referencias</h1>
+      <ul>
+          <li>
+              <a href="https://es.wikipedia.org/wiki/HTML5">WIKIPEDIA</a>
+          </li>
+      </ul>
+    </div>
+    <div id="ftc3">
+      <h1>Ayuda</h1>
+      <ul>
+          <li>
+              <a href="https://api.whatsapp.com/send?phone=573207819295&amp;text=Hola%20quiero%20mas%20informaci%C3%B3n%20sobre%20HTML%20Y%20CSS">Escribeme al Whatsapp</a>
+          </li>
+      </ul>
+    </div>
+    <div id="ftb"></div>
+  </div>
+</footer>
+
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ovi</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="d.css">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="img/favicon.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
+	<link href="../../../maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <center>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="goal-summary pull-center">
+            <div class="backers">
+              <a href="../index.html"><img src="../img/logo.png" alt="Logo UNAD" class="uk-padding-small uk-margin-small-top bg-white" uk-img></a>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </header>
+        <div id="navigation_container">
+    
+            <div class="rectangle">
+        <ul id="navigation">
+            <li><a href="section.html">SECTION</a></li>
+            <li><a href="aside.html">ASIDE</a></li>
+            <li><a href="footer.html">FOOTER</a></li>
+            <li><a href="article.html">ARTICLE</a></li>
+        </ul>
+        </div>
+    
+
+        <div class="main-content">
+          <div class="container">
+            <div class="row">
+              <div class="content col-md-8 col-sm-12 col-xs-12">
+                <div class="section-block">
+                  <div class="funding-meta">
+        <article>
+          <header>
+            <h2>Elemento article</h2>
+            <p class="alr"><span class="img"></span>En esta pagina tendras una breve descripcion sobre el atributo Article. </a>.</p>
+            <div class="toc">
+              <p>Tabla de contenidos</p>
+              <ul>
+                <li><a class="mn" href="#description"><span class="num">01</span><span class="mul">Descripción</span></a></li>
+                <li><a class="mn" href="#examples"><span class="num">02</span><span class="mul">Ejemplos</span></a></li>
+              </ul>
+            </div>
+          </header>
+          <section id="description">
+            <h2>Descripción</h2>
+            <p>El elemento <code class="elem">article</code>  es un contenedor de bloques de contenido que se consideran independientes del sitio web y pueden, por lo tanto, ser vistos, reutilizados y distribuidos por separado, como por ejemplo, en la sindicación. Puedes encontrar habitualmente a este elemento encerrando artículos, entradas de blogs o mensajes de un foro.</p>
+            <p>Cuando dos o más de estos elementos están anidados, se supone que el elemento <code class="elem">article</code> interior guarda relación con el elemento <code class="elem">article</code> que actúa como padre. Este podría ser el caso de una entrada de blog (siendo en sí misma un <code class="elem">article</code>), donde cada comentario puede estar encerrado por un elemento <code class="elem">article</code>.</p>
+            <p class="inf msr"><span class="img"></span>El elemento <code class="elem">article</code> puede ser utilizado en conjunto con otros elementos como <a href="header.html"><code class="elem">header</code></a>, <a href="footer.html"><code class="elem">footer</code></a> y <a href="time.html"><code class="elem">time</code></a> para agregar información acerca de su contenido. Esta información puede ser utilizada, por ejemplo, por navegadores o lectores de noticias.</p>
+            <p class="alr msl"><span class="img"></span>No debes confundir los elementos <code class="elem">article</code> y <a href="section.html"><code class="elem">section</code></a>. El elemento <code class="elem">article</code> tiene un mayor significado e implica que sus contenidos pueden ser tratados independientemente del documento que los contiene.</p>
+          </section>
+          <section id="examples">
+            <h2>Ejemplos</h2>
+            <p>El siguiete ejemplo muestra un uso básico del elemento <code class="elem">article</code>. Dentro de éste, podemos ver únicamente un título y un par de párrafos. Sin embargo, este contenido califica como independiente y puede ser tratado por separado y aún tener sentido.</p>
+        
+        <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;article&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="2."></span><span class="ln2">  <span class="tag">&lt;h1&gt;</span>Organizaci&oacute;n Internacional para la Estandarizaci&oacute;n<span class="tag">&lt;/h1&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="3."></span><span class="ln1">  <span class="tag">&lt;p&gt;</span>La Organizaci&oacute;n Internacional para la Estandarizaci&oacute;n conocida como ISO, es un cuerpo internacional de establecimiento de est&aacute;ndares compuesto por representantes de varias organizaciones nacionales de est&aacute;ndares.<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="4."></span><span class="ln2">  <span class="tag">&lt;p&gt;</span>...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="5."></span><span class="ln1"><span class="tag">&lt;/article&gt;</span></span></span>
+        </code></pre>
+        
+            <p>En nuestro segundo ejemplo, simularemos una entrada en un blog. Aquí, agregaremos algunos elementos más como <a href="header.html"><code class="elem">header</code></a>, <a href="footer.html"><code class="elem">footer</code></a> y <a href="time.html"><code class="elem">time</code></a> y veremos como trabajan conjuntamente para proveer más información acerca del artículo.</p>
+        
+        <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;article&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="2."></span><span class="ln2">  <span class="tag">&lt;header&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="3."></span><span class="ln1">    <span class="tag">&lt;h1&gt;</span>La cocina china<span class="tag">&lt;/h1&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="4."></span><span class="ln2">    <span class="tag">&lt;p&gt;</span>Publicado <span class="tag">&lt;time pubdate<span class="atn"> datetime=</span><span class="atv">&quot;2014-03-28T20:00-04:00&quot;</span>&gt;</span>2 meses atr&aacute;s<span class="tag">&lt;/time&gt;</span><span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="5."></span><span class="ln1">  <span class="tag">&lt;/header&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="6."></span><span class="ln2">  <span class="tag">&lt;p&gt;</span>La cocina china incluye estilos originarios de diversas regiones de China, as&iacute; como de personas chinas en otras partes del mundo. La historia de la cocina en China se remonta a cientos de a&ntilde;os atr&aacute;s y ha cambiado de per&iacute;odo a per&iacute;odo y en cada regi&oacute;n de acuerdo al clima, las modas imperiales, y la preferencia local.<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="7."></span><span class="ln1">  <span class="tag">&lt;p&gt;</span>...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="8."></span><span class="ln2">  <span class="tag">&lt;footer&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="9."></span><span class="ln1">    <span class="tag">&lt;p&gt;</span>&amp;copy; Todos los derechos reservados<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="10."></span><span class="ln2">  <span class="tag">&lt;/footer&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="11."></span><span class="ln1"><span class="tag">&lt;/article&gt;</span></span></span>
+        </code></pre>
+        
+            <p>Finalmente, simularemos una entrada de un blog que ha recibido un comentario. El comentario, apto para la sindicación o lectura independiente, guarda relación con el elemento <code class="elem">article</code> que es su padre.</p>
+        
+        <pre class="cdv"><code><span class="ln"><span class="num" data-num="1."></span><span class="ln1"><span class="tag">&lt;article&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="2."></span><span class="ln2">  <span class="tag">&lt;h1&gt;</span>El tiempo pasa<span class="tag">&lt;/h1&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="3."></span><span class="ln1">  <span class="tag">&lt;p&gt;</span>Era una fr&iacute;a ma&ntilde;ana, pero el saber que ella estaba a salvo y volviendo a casa me di&oacute; la fuerza para levantarme...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="4."></span><span class="ln2">  <span class="tag">&lt;p&gt;</span>...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="5."></span><span class="ln1">  <span class="tag">&lt;article&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="6."></span><span class="ln2">    <span class="tag">&lt;p&gt;</span><span class="tag">&lt;b&gt;</span>Mark<span class="tag">&lt;/b&gt;</span>: Los seres humanos s&oacute;lo extra&ntilde;amos las cosas buenas que tenemos cuando ya no las tenemos m&aacute;s...<span class="tag">&lt;/p&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="7."></span><span class="ln1">  <span class="tag">&lt;/article&gt;</span></span></span>
+        <span class="ln"><span class="num" data-num="8."></span><span class="ln2"><span class="tag">&lt;/article&gt;</span></span></span>
+        </code></pre>
+        
+          </section>
+          </section>
+        </article>
+      </div>	
+    </div>
+  </div>
+        </div>
+      </div>
+    </div>
+
+  </center>
+</body>
+<footer id="ft">
+  <div id="ftln"></div>
+  <div id="ftc">
+    <div id="ftc1">
+      <h1>Tutoriales</h1>
+          <ul>
+              <li><a href="https://www.youtube.com/channel/UCfQRFeSmAl6ZOs5ljM9b06A?">Visita mi canal en YouTube</a>
+              </li>
+          </ul>
+    </div>
+    <div id="ftc2">
+      <h1>Referencias</h1>
+      <ul>
+          <li>
+              <a href="https://es.wikipedia.org/wiki/HTML5">WIKIPEDIA</a>
+          </li>
+      </ul>
+    </div>
+    <div id="ftc3">
+      <h1>Ayuda</h1>
+      <ul>
+          <li>
+              <a href="https://api.whatsapp.com/send?phone=573207819295&amp;text=Hola%20quiero%20mas%20informaci%C3%B3n%20sobre%20HTML%20Y%20CSS">Escribeme al Whatsapp</a>
+          </li>
+      </ul>
+    </div>
+    <div id="ftb"></div>
+  </div>
+</footer>
+
+</html>
